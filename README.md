@@ -1,4 +1,17 @@
 Features
+Use Recycler View and Grid Layout: Shown a 3-column square image grid.  Images is  center-cropped.
+
+Image Loading:
+
+Implemented asynchronous image loading using retrofit and url.
+
+In the response of  API got thumbnail object in each array element to show image. 
+
+Display: User can be able to scroll 100 images.
+
+Caching:  Use Glide for caching and disk caching
+
+Error Handling: Handle network errors and image loading failures gracefully when fetching images from the API, providing informative error messages.
 
 1. Use of RecyclerView and GridLayout: Display a 3-column square image grid. Images are center-cropped within each image item.
 2. Image Loading: Implemented asynchronous image loading using Retrofit and URL.
